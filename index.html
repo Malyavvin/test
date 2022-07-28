@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./src/style/style.css">
+    <title>Test</title>
+</head>
+<body>
+    <div class="wripper">
+        <header class="header">
+            <div class="header__mobile">
+                <div class="header__inner">
+                    <div class="flex__row">
+                        <div class="navbar">
+                            <div class="container nav-container">
+                                <input class="checkbox" type="checkbox" name="" id="menu-toggle" />
+                                <div class="hamburger-lines">
+                                    <span class="line line1"></span>
+                                    <span class="line line2"></span>
+                                    <span class="line line3"></span>
+                                </div>
+                                <div class="burger__body">
+                                    <div class="burger__header">
+                                        <a href="#" class="search">
+                                            <img src="./src/img/header/search.svg" alt="">
+                                        </a>
+                                        <a href="#" class="cart">
+                                            <img src="./src/img/header/cart.svg" alt="">
+                                        </a>
+                                    </div>
+                                    <div class="burger__list">
+                                        <li><a href="#">Продукция</a></li>
+                                        <li><a href="#">Услуги</a></li>
+                                        <li><a href="#">Клиентам</a></li>
+                                        <li class="dropdown"><a href="#">О компании</a>
+                                            <div class="dropdown__body">
+                                                <div class="dropdown__list flex">
+                                                    <div class="list__body">
+                                                        <img src="./src/img/header/icon__1.svg" alt="">
+                                                        <a href="" class="dropdown__item">Наша компания</a>
+                                                    </div>
+                                                    <div class="list__body">
+                                                        <img src="./src/img/header/icon__2.svg" alt="">
+                                                        <a href="" class="dropdown__item">История комбината</a>
+                                                    </div>
+                                                    <div class="list__body">
+                                                        <img src="./src/img/header/icon__3.svg" alt="">
+                                                        <a href="" class="dropdown__item">Документы</a>
+                                                    </div>
+                                                    <div class="list__body">
+                                                        <img src="./src/img/header/icon__4.svg" alt="">
+                                                        <a href="" class="dropdown__item">Фото-видео</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li><a href="#">Новости</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <img src="./src/img/header/Logo.svg" alt="">
+                        </div>
+                         <a href="#" class="cart">
+                               <img src="./src/img/header/cart.svg" alt="">
+                        </a>
+                    </div>
+                    <hr>
+                    <div class="header__mobile__footer">
+                        <div class="media">
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/youtube.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/inst.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tw.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tg.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/vk.svg" alt="">
+                             </a>
+                        </div>
+                        <a href="tel:+78312289080" class="tel">+7 (831) 228-90-80</a>
+                    </div>
+                </div>
+                </div>
+            <div class="header__container container">
+                <div class="header__header flex">
+                    <div class="block__l flex">
+                        <div class="lang">
+                            Ru
+                        </div>
+                        <div class="media">
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/youtube.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/inst.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tw.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tg.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/vk.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="block__r flex">
+                        <a href="tel:+78312289080" class="tel">+7 (831) 228-90-80</a>
+                        <div class="modals">
+                            <a href="#" class="search">
+                                <img src="./src/img/header/search.svg" alt="">
+                            </a>
+                            <a href="#" class="cart">
+                                <img src="./src/img/header/cart.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo">
+                    <hr>
+                    <img src="./src/img/header/Logo.svg" alt="">
+                    <hr>
+                </div>
+                <div class="header__nav">
+                    <div class="nav__body">
+                        <ul class="nav__list flex">
+                            <li><a href="#" class="nav__item">Продукция</a></li>
+                            <li class="dropdown"><a href="#" class="nav__item">Услуги</a>
+                                <div class="dropdown__body">
+                                    <div class="dropdown__list flex">
+                                        <div class="list__body">
+                                            <img src="./src/img/header/icon__1.svg" alt="">
+                                            <a href="" class="dropdown__item">Наша компания</a>
+                                        </div>
+                                        <div class="list__body">
+                                            <img src="./src/img/header/icon__2.svg" alt="">
+                                            <a href="" class="dropdown__item">История комбината</a>
+                                        </div>
+                                        <div class="list__body">
+                                            <img src="./src/img/header/icon__3.svg" alt="">
+                                            <a href="" class="dropdown__item">Документы</a>
+                                        </div>
+                                        <div class="list__body">
+                                            <img src="./src/img/header/icon__4.svg" alt="">
+                                            <a href="" class="dropdown__item">Фото-видео</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#" class="nav__item">О нас</a></li>
+                            <li><a href="#" class="nav__item">Клиентам</a></li>
+                            <li><a href="#" class="nav__item">Новости</a></li>
+                            <li><a href="#" class="nav__item">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section__1">
+            <div class="container">
+                <div class="title__block flex">
+                    <img src="./src/img/section__1/title__img.png" alt="">
+                    <h1 class="title"> <span class="yellow">Володарский<br></span> мукомольный комбинат</h1>
+                </div>
+                <div class="section__row flex">
+                    <div class="swiper swiper__cards">
+                        <div class="card__swiper-pagination">
+                        </div>
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="card card1">
+                                    <div class="card__body">
+                                        <div class="card__title">
+                                            <p>
+                                                Индивидуальный подход 
+                                               к каждому клиенту
+                                            </p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>
+                                                Персональный менеджер 
+                                                и сопровождение 24/7
+                                            </p>
+                                        </div>
+                                        <a href="#" class="yellow__btn">Заказать поставку</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="card card2">
+                                    <div class="card__body">
+                                        <div class="card__title">
+                                            <p>Большие объемы призводимой продукции</p>
+                                        </div>
+                                        <div class="card__text">
+                                            <p>700 тонн - производимая способность комбината “Володарский”</p>
+                                        </div>
+                                        <a href="#" class="yellow__btn">Заказать поставку</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section__1-content flex">
+                        <div class="video">
+                            <div class="play-yt">
+                                <img src="./src/img/section__1/play.svg" alt="">
+                            </div>
+                            <iframe  class="yt-video" width="420" height="220" src="" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture;autoplay;" allowfullscreen>
+                            </iframe>
+                        </div>
+                        <div class="description">
+                            <h6 class="description__title">Крупнейший поставщик муки в Нижегородской области</h6>
+                            <p class="description__text">Мукомольный комбинат Володарский  —  радует людей вкусным хлебом. В этом нам помогает качественное и экологическое сырье, индивидуальный подход к клиентам и квалифицированные сотрудники, всегда готовые помочь</p>
+                            <div class="descripion__footer flex">
+                                <div class="description__autog flex">
+                                    <img src="./src/img/section__1/autog.svg" alt="">
+                                    <div class="flex">
+                                        <p class="director">Генеральный директор</p>
+                                        <p class="director__name">О. А. Дворникова</p>
+                                    </div>
+                                </div>
+                                <a href="#" class="btn__arrow">О компании</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__2">
+            <div class="container">
+                <div class="item__row flex">
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="item__img">
+                                <img src="./src/img/section__2/Rectangle 3777.png" alt="">
+                            </div>
+                            <a href="#" class="item__name">Крупа манная</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="item__img">
+                                <img src="./src/img/section__2/Rectangle 3777-1.png" alt="">
+                            </div>
+                            <a href="#" class="item__name">Пшеничная мука</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="item__img">
+                                <img src="./src/img/section__2/Rectangle 3777-2.png" alt="">
+                            </div>
+                            <a href="#" class="item__name">Ржаная мука</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="item__img">
+                                <img src="./src/img/section__2/Rectangle 3777-3.png" alt="">
+                            </div>
+                            <a href="#" class="item__name">Отруби</a>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="item__inner">
+                            <div class="item__img">
+                                <img src="./src/img/section__2/Rectangle 3777-4.png" alt="">
+                            </div>
+                            <a href="#" class="item__name">Зерноотходы</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__3">
+            <div class="container">
+                <h3 class="h3__title">Путь производства нашей муки</h3>
+                <div class="section__row">
+                    <div class="section__content">
+                        <h6 class="section__title">Закупка зерна</h6>
+                        <p class="section__text">Мы закупаем зерно только у агрохолдингов с проверенной репутацией</p>
+                        <a href="" class="yellow__btn section__btn">Стать вашим поставщиком</a>
+                    </div>
+                    <div class="section__img">
+                        <img src="./src/img/section__3/section__img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+       <section class="section__4">
+            <div class="section__row">
+                <div class="section__video__inner">
+                    <iframe class="section__video" width="500" height="300" src="https://www.youtube.com/embed/GP9L_2CPh1M?controls=0&autoplay=1&mute=1&loop=1&playlist=GP9L_2CPh1M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="section__content">
+                    <h6 class="section__title">Около 2 000 тонн</h6>
+                    <p class="section__text">Приемка зерна автотранспортом в сутки</p>
+                </div>
+            </div>
+       </section>
+       <section class="section__5">
+            <div class="container">
+                <div class="section__row">
+                    <div class="section__content">
+                        <h6 class="section__title">Очистка зерна</h6>
+                        <p class="section__text">Мы исследуем каждую партию сырья в собственной лаборатории</p>
+                    </div>
+                    <div class="section__img">
+                        <img src="./src/img/section__5/section__img.png" alt="">
+                    </div>
+                </div>
+                <div class="item__row">
+                    <div class="row__item">
+                        <div class="row__inner">
+                            <div class="row__img">
+                                <img src="./src/img/section__5/Icon1.svg">
+                            </div>
+                            <div class="row__content">
+                                <p class="row__title">Отсев по весу</p>
+                                <p class="row__text">Наша современая техника позволет успешно очищать зерно от всех примесей</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__item">
+                        <div class="row__inner">
+                            <div class="row__img">
+                                <img src="./src/img/section__5/Icon2.svg">
+                            </div>
+                            <div class="row__content">
+                                <p class="row__title">Оптическая сортировка</p>
+                                <p class="row__text">С помощью инфракрасного спектра мы анализируем сырье на наличие заражённости и различных дефектов</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row__item">
+                        <div class="row__inner">
+                            <div class="row__img">
+                                <img src="./src/img/section__5/Icon3.svg">
+                            </div>
+                            <div class="row__content">
+                                <p class="row__title">Сортировка по форме и размеру</p>
+                                <p class="row__text">Крупные зерна с гладкой здоровой фактурой идут на производство муки высших сортов, мелкие — диетических с повышенным содержанием пищевых волокон</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__6">
+            <div class="section__row">
+                <div class="section__img">
+                    <img src="./src/img/section__6/section__img.png" alt="">
+                </div>
+                <div class="section__content">
+                    <div class="section__inner">
+                        <h6 class="section__title">Три производственные линии</h6>
+                        <p class="section__text">Наконец, подготовленные виды зерна отправляются в размольное отделение, где cначала дробятся в крупку, а потом измельчаются в муку</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__7">
+            <div class="container">
+                <div class="section__row">
+                    <div class="section__content">
+                        <h6 class="section__title">+ 30 видов продукции</h6>
+                        <p class="section__text">Может производить комбинат в зависимости от задач и потребностей заказчика, в том числе муку по индивидуальным параметрам</p>
+                        <a href="" class="yellow__btn section__btn">Посмотреть продукцию</a>
+                    </div>
+                    <div class="section__img">
+                        <img src="./src/img/section__7/section__img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__8">
+            <div class="container">
+                <div class="section__header">
+                    <h6 class="section__title">Фасовка</h6>
+                    <p class="section__text">Произведенную продукцию фасовывют и развозят по предприятиям, магазинам и фермам</p>
+                </div>
+                <div class="section__section">
+                    <p class="section__section-title">Бестарная фасовка</p>
+                    <p class="section__section-text">Муковоз</p>
+                    <img src="./src/img/section__8/section__img.png" alt="" class="section__section-img">
+                </div>
+                <div class="section__section2">
+                    <p class="section__section-title">Варианты упаковки</p>
+                    <img src="./src/img/section__8/section__img2.png" alt="" class="section__section-img">
+                </div>
+                <div class="section__footer">
+                    <h6 class="section__title">Поставка</h6>
+                    <p class="section__text">Поставим муку на ваше производство в любом количестве. 35 регионов, 5 районов, 4 страны</p>
+                    <a href="#" class="yellow__btn">Заказать поставку</a>
+                </div>
+            </div>
+        </section>
+        <section class="section__9">
+            <img src="./src/img/section__9/map.png" alt="">
+        </section>
+        <section class="section__10">
+            <div class="section__row">
+                <div class="block-l">
+                    <div class="block__body">
+                        <h6 class="section__title">Оставьте заявку</h6>
+                        <p class="section__text">С вами свяжется персональный менеджер, который отрегулирует все вопросы и будет на связи 24/7</p>
+                    </div>
+                    <div class="section__number">
+                        <p class="section__text">Или позвоните нам:</p>
+                        <a href="tel:+78312289080" class="tel">+7 (831) 228-90-80</a>
+                    </div>
+                </div>
+                <div class="block-r">
+                    <form action="post" class="section__form">
+                        <div class="form__row">
+                            <div class="section__inputs">
+                                <input type="text" class="user__name" placeholder="Ваше имя">
+                                <input type="number" class="user__number" placeholder="Ваш номер">
+                                <input type="email" class="user__email" placeholder="Ваша почта">
+                            </div>
+                            <textarea name="textarea" id="4" cols="30" rows="10" class="textarea" aria-placeholder="Комментарий"></textarea>
+                        </div>
+                        <div class="form__footer">
+                            <div class="checkbox">
+                                <input class="custom-checkbox" type="checkbox" id="color-1" name="color-1" value="indigo">
+                                <label for="color-1">Я согласен с условиями <a class="label__politik">политики конфиденциальноcти</a></label>
+                            </div>
+                            <button type="submit" class="yellow__btn">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="section__footer flex">
+                <img src="./src/img/section__10/pic_1.png" alt="">
+                <img src="./src/img/section__10/pngwing 1.png" alt="">
+            </div>
+        </section>
+    </div>
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="block__l">
+                        <div class="footer__logo">
+                            <img src="./src/img/footer/logo.png" alt="">
+                        </div>
+                        <div class="footer__adress">
+                            <p>606070, Нижегородская область, г. Володарск, улица Южная, 19 А</p>
+                        </div>
+                    </div>
+                    <div class="block__c">
+                        <div class="footer__nav">
+                            <ul class="footer__list">
+                                <p class="list__title">Продукция</p>
+                                <li class="footer__item"><a href="#">Пшеничная мука</a></li>
+                                <li class="footer__item"><a href="#">Ржаная мука</a></li>
+                                <li class="footer__item"><a href="#">Отруби</a></li>
+                                <li class="footer__item"><a href="#">Зерноотходы</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <p class="list__title">О компании</p>
+                                <li class="footer__item"><a href="#">Наша компания</a></li>
+                                <li class="footer__item"><a href="#">История</a></li>
+                                <li class="footer__item"><a href="#">Документы</a></li>
+                                <li class="footer__item"><a href="#">Фото/видео</a></li>
+                                <li class="footer__item"><a href="#">Вакансии</a></li>
+                                <li class="footer__item"><a href="#">Новости</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <p class="list__title">Клиентам</p>
+                                <li class="footer__item"><a href="#">Вопрос/ответ</a></li>
+                                <li class="footer__item"><a href="#">Потребителям</a></li>
+                                <li class="footer__item"><a href="#">Услуги элеватора</a></li>
+                                <li class="footer__item"><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="block__r">
+                        <a href="tel:+78312289080" class="tel">+7 (831) 228-90-80</a>
+                        <a href="mailto:nn@wolodar.ru" class="mail">nn@wolodar.ru</a>
+                        <div class="media">
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/youtube.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/inst.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tw.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tg.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/vk.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="block__r-link">
+                            <a href="#">Магазин на Aliexpress</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__footer">
+                    <div class="copyright">
+                        <p>Copyright© 2022</p>
+                    </div>
+                    <div class="privacy">
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__inner-adap">
+            <div class="container">
+                <div class="footer__content">
+                    <div class="block__l">
+                        <div class="footer__logo">
+                            <img src="./src/img/footer/logo.png" alt="">
+                        </div>
+                    </div>
+                    <div class="block__c">
+                        <div class="footer__nav">
+                            <ul class="footer__list">
+                                <p class="list__title">Продукция</p>
+                                <li class="footer__item"><a href="#">Пшеничная мука</a></li>
+                                <li class="footer__item"><a href="#">Ржаная мука</a></li>
+                                <li class="footer__item"><a href="#">Отруби</a></li>
+                                <li class="footer__item"><a href="#">Зерноотходы</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <p class="list__title">О компании</p>
+                                <li class="footer__item"><a href="#">Наша компания</a></li>
+                                <li class="footer__item"><a href="#">История</a></li>
+                                <li class="footer__item"><a href="#">Документы</a></li>
+                                <li class="footer__item"><a href="#">Фото/видео</a></li>
+                                <li class="footer__item"><a href="#">Вакансии</a></li>
+                                <li class="footer__item"><a href="#">Новости</a></li>
+                            </ul>
+                            <ul class="footer__list">
+                                <p class="list__title">Клиентам</p>
+                                <li class="footer__item"><a href="#">Вопрос/ответ</a></li>
+                                <li class="footer__item"><a href="#">Потребителям</a></li>
+                                <li class="footer__item"><a href="#">Услуги элеватора</a></li>
+                                <li class="footer__item"><a href="#">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__body">
+                    <div class="footer__adress">
+                        <p>606070, Нижегородская область, г. Володарск, улица Южная, 19 А</p>
+                    </div>
+                    <div class="block__r">
+                        <a href="tel:+78312289080" class="tel">+7 (831) 228-90-80</a>
+                        <a href="mailto:nn@wolodar.ru" class="mail">nn@wolodar.ru</a>
+                        <div class="media">
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/youtube.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/inst.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tw.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/tg.svg" alt="">
+                            </a>
+                            <a href="#" class="media__link">
+                                <img src="./src/img/header/vk.svg" alt="">
+                            </a>
+                        </div>
+                        <div class="block__r-link">
+                            <a href="#">Магазин на Aliexpress</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__footer">
+                    <div class="copyright">
+                        <p>Copyright© 2022</p>
+                    </div>
+                    <div class="privacy">
+                        <a href="#">Политика конфиденциальности</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__inner-mobile">
+            <div class="footer__header">
+                <div class="row">
+                    <div class="footer__logo">
+                        <img src="./src/img/footer/logo.png" alt="">
+                    </div>
+                    <div class="block__r">
+                        <a href="tel:+78312289080" class="tel">+7 (831) 228-90-80</a>
+                        <a href="mailto:nn@wolodar.ru" class="mail">nn@wolodar.ru</a>
+                    </div>
+                </div>
+                <div class="media__inner">
+                    <div class="media">
+                        <a href="#" class="media__link">
+                            <img src="./src/img/header/youtube.svg" alt="">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="./src/img/header/inst.svg" alt="">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="./src/img/header/tw.svg" alt="">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="./src/img/header/tg.svg" alt="">
+                        </a>
+                        <a href="#" class="media__link">
+                            <img src="./src/img/header/vk.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="block__r-link">
+                    <a href="#">Магазин на Aliexpress</a>
+                </div>
+            </div>
+            <div class="accordion">
+                <ul>
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2>Продукция</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, fuga dolor? Sapiente tempore, nihil accusantium ipsam quae ab aut. Nemo doloribus magnam tenetur voluptatibus illum atque molestiae autem repellat architecto?</p>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2>О компании</h2>
+                        <a href="#" class="accordion__item">История</a>
+                        <a href="#" class="accordion__item">Документы</a>
+                        <a href="#" class="accordion__item">Фото/видео</a>
+                        <a href="#" class="accordion__item">Вакансии</a>
+                        <a href="#" class="accordion__item">Новости</a>
+                    </li>
+                    <li>
+                        <input type="checkbox" checked>
+                        <i></i>
+                        <h2>Клиентам</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, fuga dolor? Sapiente tempore, nihil accusantium ipsam quae ab aut. Nemo doloribus magnam tenetur voluptatibus illum atque molestiae autem repellat architecto?</p>
+                    </li>
+                    </ul>
+            </div>
+            <div class="footer__mobile">
+                <div class="footer__mobile__inner">
+                    <div class="footer__adress">
+                        <p>606070, Нижегородская область, г. Володарск, улица Южная, 19 А</p>
+                    </div>
+                    <div class="footer__mobile__footer">
+                        <div class="privacy">
+                            <a href="#">Политика конфиденциальности</a>
+                        </div>
+                        <div class="copyright">
+                            <p>Copyright© 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./src/js/jquery-3.6.0.min.js"></script>
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
