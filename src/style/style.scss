@@ -55,7 +55,7 @@ body{
     font-size: 16px;
     line-height: 130%;
     &::after{
-        content: url(/src/img/header/lang__arrow.svg);
+        content: url(../src/img/header/lang__arrow.svg);
         position: absolute;
         margin-left: 5px;
     }
@@ -163,7 +163,7 @@ hr{
     &:hover{
         color: #FD9F32;
         &::after{
-            content: url(/src/img/header/nav__arrow.svg);
+            content: url(../src/img/header/nav__arrow.svg);
             position: absolute;
             margin-left: 10px;
         }
@@ -299,11 +299,11 @@ hr{
     }
 }
 .card1 {
-    background: url(/src/img/section__1/card1__bg.png);
+    background: url(../src/img/section__1/card1__bg.png);
   
 }
 .card2 {
-    background: url(/src/img/section__1/card2__bg.png);
+    background: url(../src/img/section__1/card2__bg.png);
 }
 .section__1-content {
     flex-direction: column;
@@ -323,7 +323,7 @@ hr{
         cursor: pointer;
     }
     .yt-video{
-        background-image: url(/src/img/section__1/video__bg.png);
+        background-image: url(../src/img/section__1/video__bg.png);
         background-size: cover;
     }
 }
@@ -375,7 +375,7 @@ hr{
     position: relative;
     transition: .5s;
     &::after{
-        content: url(/src/img/header/nav__arrow.svg);
+        content: url(../src/img/header/nav__arrow.svg);
         margin-left: 10px;
         transition: .5s;
     }
@@ -383,7 +383,7 @@ hr{
         color :#664B42;
         &::after{
             transition: .5s;
-            content: url(/src/img/section__1/arr-hov.svg);
+            content: url(../src/img/section__1/arr-hov.svg);
         }
     }
 }
@@ -436,7 +436,7 @@ hr{
     transition: all .5s;
     position: relative;
     &::after {
-        content: url(/src/img/section__2/item__arr.svg);
+        content: url(../src/img/section__2/item__arr.svg);
         opacity: 0;
         visibility: hidden;
         position: absolute;
@@ -466,7 +466,7 @@ hr{
     .section__title{
         position: relative;
         &:before{
-            content: url(/src/img/section__3/line__bef.svg);
+            content: url(../src/img/section__3/line__bef.svg);
             position: absolute;
             bottom: 40px;
             margin-left: auto;
@@ -478,7 +478,7 @@ hr{
     .section__content{
         position: relative;
         &::after{
-            content: url(/src/img/section__3/line__aft.svg);
+            content: url(../src/img/section__3/line__aft.svg);
             position: absolute;
             left: 95px;
             padding-top: 70px;
@@ -525,7 +525,7 @@ hr{
     margin-top: 140px;
     background: #F7F7F7;
     position: relative;
-    background: url(/src/img/section__4/bg.png);
+    background: url(../src/img/section__4/bg.png);
     .section__content {
         max-width: unset;
         padding-left: 80px;
@@ -541,7 +541,7 @@ hr{
         max-width: 1320px;
         position: relative;
         &::after{
-            content: url(/src/img/section__5/line__aft.svg);
+            content: url(../src/img/section__5/line__aft.svg);
             position: absolute;
             left: 123px;
         }
@@ -549,13 +549,13 @@ hr{
     .section__content{
         position: relative;
         &::before{
-            content: url(/src/img/section__5/line__bef.svg);
+            content: url(../src/img/section__5/line__bef.svg);
             position: absolute;
             top: -345px;
             left: 77px;
         }
         &::after{
-            content: url(/src/img/section__5/line__mid.svg);
+            content: url(../src/img/section__5/line__mid.svg);
             position: absolute;
             padding-top: 40px;
             left: 77px;
@@ -592,7 +592,7 @@ hr{
 
 .section__6 {
     margin-top: 140px;
-    background: url(/src/img/section__4/bg.png);
+    background: url(../src/img/section__4/bg.png);
     transform: rotate(180deg);
     .section__row {
         justify-content: unset;
@@ -613,7 +613,7 @@ hr{
             .section__text{
             }
             &::after{
-                content: url(/src/img/section__6/dop.png);
+                content: url(../src/img/section__6/dop.png);
                 position: absolute;
                 right: 0;
                 top: 10vh;
@@ -637,13 +637,13 @@ hr{
     max-width: 450px;
     position: relative;
     &::before{
-        content: url(/src/img/section__7/line__bef.svg);
+        content: url(../src/img/section__7/line__bef.svg);
         position: absolute;
         bottom: 268px;
         left: 77px;
     }
     &::after{
-        content: url(/src/img/section__7/line__aft.svg);
+        content: url(../src/img/section__7/line__aft.svg);
         position: absolute;
         left: 77px;
         padding-top: 40px;
@@ -693,7 +693,7 @@ hr{
         align-items: center;
         position: relative;
         &::before{
-            content: url(/src/img/section__3/line-mob.svg);
+            content: url(../src/img/section__3/line-mob.svg);
             position: absolute;
             top: -100px;
         }
@@ -896,7 +896,7 @@ hr{
             margin-left: 5px;
         }
         &::before{
-            content: url(/src/img/footer/adress.svg);
+            content: url(../src/img/footer/adress.svg);
             margin-top: -7px;
         }
     }
@@ -961,7 +961,7 @@ hr{
         margin-top: 24px;
         margin-left: 20px;
         &::after{
-            content: url(/src/img/footer/aliex.svg);
+            content: url(../src/img/footer/aliex.svg);
             position: relative;
             top: 3px;
             padding-left: 10px;
@@ -969,7 +969,7 @@ hr{
         &:hover{
             color: #FD9F32;
             &::after{
-                content: url(/src/img/footer/privacy.svg);
+                content: url(../src/img/footer/privacy.svg);
             }
         }
     }
@@ -994,7 +994,7 @@ hr{
         transition: all .5s;
         position: relative;
         &::after{
-            content: url(/src/img/footer/privacy.svg);
+            content: url(../src/img/footer/privacy.svg);
             position: relative;
             top: 3px;
             right: 0;
@@ -1004,7 +1004,7 @@ hr{
             color :#664B42;
             &::after{
                 transition: .5s;
-                content: url(/src/img/footer/privacy-hov.svg);
+                content: url(../src/img/footer/privacy-hov.svg);
             }
         }
     }
@@ -1091,12 +1091,12 @@ hr{
             position: relative;
             padding-top: 40px;
             &::before{
-                content: url(/src/img/section__3/line-mob.svg);
+                content: url(../src/img/section__3/line-mob.svg);
                 position: absolute;
                 top: 10px;
             }
             &::after{
-                content: url(/src/img/section__3/line-mob.svg);
+                content: url(../src/img/section__3/line-mob.svg);
                 position: absolute;
                 bottom: -90px;
             }
@@ -1109,12 +1109,12 @@ hr{
         margin-top: 240px;
         .section__content{
             &::before{
-            content: url(/src/img/section__7/line__bef-adap.svg);
+            content: url(../src/img/section__7/line__bef-adap.svg);
                 bottom: 270px;
                 left: 200px;
         }
             &::after{
-                content: url(/src/img/section__7/line__aft-adap.svg);
+                content: url(../src/img/section__7/line__aft-adap.svg);
                 left: 200px;
             }
         }
@@ -1170,7 +1170,7 @@ hr{
         .section__row {
             flex-wrap: wrap-reverse;
             &::after{
-                content: url(/src/img/section__6/dop.png);
+                content: url(../src/img/section__6/dop.png);
                 position: absolute;
                 right: 0;
                 bottom: -220px;
@@ -1202,13 +1202,13 @@ hr{
         .container{
             position: relative;
             &::before{
-                content: url(/src/img/section__3/line-mob.svg);
+                content: url(../src/img/section__3/line-mob.svg);
                 position: absolute;
                 left: 50vw;
                 top: -60px;
             }
             &::after{
-                content: url(/src/img/section__3/line-mob.svg);
+                content: url(../src/img/section__3/line-mob.svg);
                 position: absolute;
                 left: 50vw;
                 padding-top: 40px;
@@ -1306,7 +1306,7 @@ hr{
                 margin-top: 20px;
                 position: relative;
                 &::after{
-                    content: url(/src/img/header/phone.svg);
+                    content: url(../src/img/header/phone.svg);
                     position: absolute;
                     top: 0;
                     right: -25px;
@@ -1367,13 +1367,13 @@ hr{
         .container{
             position: relative;
             &::before{
-                content: url(/src/img/section__3/line-mob.svg);
+                content: url(../src/img/section__3/line-mob.svg);
                 top: 25px;
                 left: 50vw;
                 position: absolute;
             }
             &::after{
-                content: url(/src/img/section__3/line-mob.svg);
+                content: url(../src/img/section__3/line-mob.svg);
                 bottom: -125px;
                 left: 50vw;
                 position: absolute;
@@ -1764,10 +1764,10 @@ hr{
         }
     }
     .card1 {
-        background: url(/src/img/section__1/card1__bg-mob.png);
+        background: url(../src/img/section__1/card1__bg-mob.png);
     }
     .card2 {
-        background: url(/src/img/section__1/card2__bg-mob.png);
+        background: url(../src/img/section__1/card2__bg-mob.png);
     }
 }
 @media (max-width:370px){
