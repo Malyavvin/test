@@ -65,7 +65,7 @@ body {
 }
 
 .lang::after {
-  content: url(../img/header/lang__arrow.svg);
+  content: url("../img/header/lang__arrow.svg");
   position: absolute;
   margin-left: 5px;
 }
